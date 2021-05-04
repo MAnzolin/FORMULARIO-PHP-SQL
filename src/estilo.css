@@ -1,0 +1,187 @@
+body{
+   margin: 0;
+   padding: 0;
+  
+}
+
+/*HEADER ---------------------------------------------------*/
+header{
+    background-image: url("imagens/fundo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;                        /*Foto de fundo*/
+    background-attachment: fixed;
+    background-color: white;
+}
+
+#secao{
+    text-align: center;                                 /*Alinhar o Menu superior*/
+    padding: 1%;
+}
+
+#secao a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;                    /*Editar os textos do Menu*/
+    padding: 2%;
+    font-size: 100%;
+}
+
+#logo{
+    width: 11%;                                        /*Foto logo*/
+    padding: 3%;
+    margin-left: 41%;
+}
+
+#titu{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;                               /*Título Central*/
+    margin-top: -0.2%;
+    padding: 1%;
+    font-size: 300%;
+    letter-spacing: .3rem;
+}
+
+header p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;                              /*Edição de texto*/
+    font-size: 120%;
+    margin-top: -0.5%;
+    margin-bottom: 6%;
+}
+
+#btn{
+    padding-bottom: 10%;
+}
+#branc{
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5% 3.5%;
+    font-size: 100%;
+    letter-spacing: .1rem;                           /*Primeiro botão*/
+    font-family: 'Lato', sans-serif;
+    color: rgba(90, 37, 126, 1);
+    overflow: hidden;
+}
+
+#trans{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 3px solid white;
+    text-decoration: none;
+    padding: 1.2% 3.2%;                              /*Segundo botão*/
+    font-size: 100%;
+    letter-spacing: .1rem;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 5%;
+
+}
+/*FIM ---------------------------------------------------*/
+
+/*CARROSSEL---------------------------------------------------*/
+
+.carrossel{
+    max-width: 1200px;            /*Limitando o tamanho da img para não distorcer*/
+    margin: 0 auto;
+}
+
+.carrossel img{
+    max-width: 100%;
+}
+
+/*FIM ---------------------------------------------------*/
+
+/*CONTATO ---------------------------------------------------*/
+
+.contato img{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    float: right;
+}
+
+                                    /*dividindo a tela*/
+form{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    background-color: #eeeeee;
+    height: 70%;
+    float: left;
+    border: none;
+    max-height: 1600px;
+    overflow: auto;
+}
+
+.contato p{
+    color: #7205ee;
+    font-family: 'Lato', sans-serif ;
+    font-size: 210%;                        /*titulo*/
+    padding: 2%;
+    margin-left: 19%;
+}
+
+input, textarea{
+    display: block;
+    padding: 3%;
+    margin: auto;
+    font-family: 'Lato', sans-serif ;
+    color: #999999;                             /*edição dos campos*/
+    width: 60%;
+    background-color: #eeeeee;
+    border: none;
+    border-bottom: 2px solid #999999;
+    font-size: 90%;
+    -webkit-appearance: none;
+    outline: none;
+    resize: none; 
+}
+
+
+
+input:hover, textarea:hover{
+    color: #000000;
+    background-color: #ffffff;                  /*edição dos campos*/
+    border-bottom: 2px solid #7205ee;
+}
+
+textarea{                           /*edição do campo mensagem*/
+    overflow: auto;
+    height: 22%;
+}
+
+button{
+    width: 60%;
+    padding: 2% 2% 4% 2%;
+    margin-left: 20%;
+    margin-top: 3.5%;                      /*edição do botao*/
+    border: none;
+    background: #880ead;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 70%;
+}
+/*FIM ---------------------------------------------------*/
+
+/*Footer---------------------------------------------------*/
+
+footer{
+    padding: 2%;
+    margin-right: 1.5%;
+    
+}
+
+footer img{
+    float: right;
+    width: 2%;
+    padding: 0.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+/*FIM ---------------------------------------------------*/
