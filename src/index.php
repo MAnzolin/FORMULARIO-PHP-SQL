@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="imagens/favi.ico" type="image/x-icon"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TESTE</title>
+    <script src="script.js"></script>
 </head>
 <body onload="slide4()">
    <?php
@@ -59,6 +60,5 @@
         <a href=""><img src="imagens/insta.png" id="insta"></a>
         <a href=""><img src="imagens/face.png" id="face"></a>       
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
